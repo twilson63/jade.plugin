@@ -25,6 +25,9 @@ exports.plugin = {
 // * ext - name of view extenstions
 //
 function attach(options) {
+  options.dir = options.dir || './views'
+  options.ext = options.ext || '.jade'
+
   this.render = function(res, name, context) {
     context = context || {};
 
