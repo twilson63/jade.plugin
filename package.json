@@ -1,0 +1,27 @@
+{
+  "name": "jade.plugin",
+  "version": "0.1.0",
+  "description": "A flatiron plugin for jade",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test"
+  },
+  "keywords": [
+    "flatiron",
+    "jade",
+    "plugins"
+  ],
+  "author": "Tom Wilson",
+  "license": "MIT",
+  "dependencies": {
+    "jade": "~0.27.0"
+  },
+  "devDependencies": {
+    "flatiron": "*",
+    "request": "*",
+    "union": "*"
+  }
+}
