@@ -2,6 +2,8 @@
 
 A jade plugin for flatiron
 
+[![Build Status](https://secure.travis-ci.org/twilson63/jade.plugin.png)](http://travis-ci.org/twilson63/jade.plugin)
+
 ## usage
 
 ``` javascript
