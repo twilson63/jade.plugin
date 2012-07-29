@@ -28,6 +28,15 @@ function attach(options) {
   options.dir = options.dir || './views'
   options.ext = options.ext || '.jade'
 
+  // redirect
+  //
+  // sends a 302 redirect request
+  this.redirect = function(res, location) {
+    res.writeHead(302, { 'Location': location});
+    res.end();
+  }
+
+  // renders jade view
   this.render = function(res, name, context) {
     context = context || {};
 
